@@ -1,12 +1,35 @@
 {
-  "store.home": { 
-    "blocks": [
-      "image#example"
-    ]
-  },
-  "image#example": {
-    "props": {
-      "src": ""
+    "store.home": {
+        "blocks": [
+            "slider-layout#depBanner"
+        ]
+    },
+    "slider-layout#depBanner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "image#depbanner1",
+            "image#depbanner2"
+        ]
+    },
+    "image#depbanner1": {
+        "props": {
+            "src": "assets/BANNER-WOOD.png",
+            "width": 800
+        }
+    },
+    "image#depbanner2": {
+        "props": {
+            "src": "assets/BANNER-WOOD2.png",
+            "width": 800
+        }
     }
-  }
 }
