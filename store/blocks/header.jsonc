@@ -38,7 +38,8 @@
             "search-bar",
             "locale-switcher",
             "login",
-            "minicart.v2"
+            "minicart.v2",
+            "menu"
         ]
     },
     "flex-layout.col#spacer": {
@@ -78,7 +79,8 @@
             "logo",
             "flex-layout.col#spacer",
             "login",
-            "minicart.v2"
+            "minicart.v2",
+            "menu"
         ],
         "props": {
             "blockClass": "main-header-mobile",
