@@ -1,9 +1,93 @@
 {
     "store.home": {
         "blocks": [
-            "slider-layout#depBanner",
-            "tab-layout#home"
+            "tab-layout#home",
+            "slider-layout#depBanner"
         ]
+    },
+    "slider-layout#depBanner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "image#depbanner1",
+            "image#depbanner2",
+            "image#depbanner3",
+            "image#depbanner4",
+            "image#depbanner5",
+            "image#depbanner6",
+            "image#depbanner7",
+            "image#depbanner8",
+            "image#depbanner9",
+            "image#depbanner10"
+        ]
+    },
+    "image#depbanner1": {
+        "props": {
+            "src": "assets/card1.png",
+            "width": 400
+        }
+    },
+    "image#depbanner2": {
+        "props": {
+            "src": "assets/card2.png",
+            "width": 400
+        }
+    },
+    "image#depbanner3": {
+        "props": {
+            "src": "assets/card3.png",
+            "width": 400
+        }
+    },
+    "image#depbanner4": {
+        "props": {
+            "src": "assets/card4.png",
+            "width": 400
+        }
+    },
+    "image#depbanner5": {
+        "props": {
+            "src": "assets/card5.png",
+            "width": 400
+        }
+    },
+    "image#depbanner6": {
+        "props": {
+            "src": "assets/card6.png",
+            "width": 400
+        }
+    },
+    "image#depbanner7": {
+        "props": {
+            "src": "assets/card7.png",
+            "width": 400
+        }
+    },
+    "image#depbanner8": {
+        "props": {
+            "src": "assets/card8.png",
+            "width": 400
+        }
+    },
+    "image#depbanner9": {
+        "props": {
+            "src": "assets/card9.png",
+            "width": 400
+        }
+    },
+    "image#depbanner10": {
+        "props": {
+            "src": "assets/card10.png",
+            "width": 400
+        }
     },
     "tab-layout#home": {
         "children": [
@@ -38,11 +122,7 @@
     },
     "tab-content.item#home1": {
         "children": [
-            "image#home1",
-            "image#home2",
-            "image#home3",
-            "image#home4",
-            "image#home5"
+            "image#home1"
         ],
         "props": {
             "tabId": "Camisas famosas"
@@ -50,11 +130,7 @@
     },
     "tab-content.item#home2": {
         "children": [
-            "image#home6",
-            "image#home7",
-            "image#home8",
-            "image#home9",
-            "image#home10"
+            "image#home2"
         ],
         "props": {
             "tabId": "Camisas simples"
@@ -62,92 +138,15 @@
     },
     "image#home1": {
         "props": {
-            "src": "assets/card1.png",
-            "width": 500
-        }
-    },
-    "image#home2": {
-        "props": {
-            "src": "assets/card2.png",
-            "width": 500
-        }
-    },
-    "image#home3": {
-        "props": {
-            "src": "assets/card3.png",
-            "textPosition": "CENTER",
-            "font": "t-heading-3",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home4": {
-        "props": {
-            "src": "assets/card4.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home5": {
-        "props": {
-            "src": "assets/card5.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home6": {
-        "props": {
-            "src": "assets/card6.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home7": {
-        "props": {
-            "src": "assets/card7.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home8": {
-        "props": {
-            "src": "assets/card8.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home9": {
-        "props": {
-            "src": "assets/card9.png",
-            "maxWidth": "50%"
-        }
-    },
-    "image#home10": {
-        "props": {
-            "src": "assets/card10.png",
-            "maxWidth": "50%"
-        }
-    },
-    "slider-layout#depBanner": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "infinite": true,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "carousel"
-        },
-        "children": [
-            "image#depbanner1",
-            "image#depbanner2"
-        ]
-    },
-    "image#depbanner1": {
-        "props": {
             "src": "assets/BANNER-WOOD.png",
             "width": 800
         }
     },
-    "image#depbanner2": {
+    "image#home2": {
         "props": {
             "src": "assets/BANNER-WOOD2.png",
             "width": 800
         }
     }
+   
 }
