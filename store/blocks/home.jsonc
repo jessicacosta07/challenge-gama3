@@ -1,8 +1,124 @@
 {
     "store.home": {
         "blocks": [
-            "slider-layout#depBanner"
+            "slider-layout#depBanner",
+            "tab-layout#home"
         ]
+    },
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ]
+    },
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2"
+        ]
+    },
+    "tab-list.item#home1": {
+        "props": {
+            "tabId": "Camisas famosas",
+            "label": "Camisas famosas",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#home2": {
+        "props": {
+            "label": "Camisas simples",
+            "tabId": "Camisas simples"
+        }
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home1",
+            "tab-content.item#home2"
+        ]
+    },
+    "tab-content.item#home1": {
+        "children": [
+            "image#home1",
+            "image#home2",
+            "image#home3",
+            "image#home4",
+            "image#home3"
+        ],
+        "props": {
+            "tabId": "Camisas famosas"
+        }
+    },
+    "tab-content.item#home2": {
+        "children": [
+            "image#home6",
+            "image#home7",
+            "image#home8",
+            "image#home9",
+            "image#home10"
+        ],
+        "props": {
+            "tabId": "Camisas simples"
+        }
+    },
+    "image#home1": {
+        "props": {
+            "src": "assets/card1.png",
+            "width": 400
+        }
+    },
+    "image#home2": {
+        "props": {
+            "src": "assets/card2.png",
+            "width": 400
+        }
+    },
+    "image#home3": {
+        "props": {
+            "src": "assets/card3.png",
+            "width": 400
+        }
+    },
+    "image#home4": {
+        "props": {
+            "src": "assets/card4.png",
+            "width": 400
+        }
+    },
+    "image#home5": {
+        "props": {
+            "src": "assets/card5.png",
+            "width": 400
+        }
+    },
+    "image#home6": {
+        "props": {
+            "src": "assets/card6.png",
+            "width": 400
+        }
+    },
+    "image#home7": {
+        "props": {
+            "src": "assets/card7.png",
+            "width": 400
+        }
+    },
+    "image#home8": {
+        "props": {
+            "src": "assets/card8.png",
+            "width": 400
+        }
+    },
+    "image#home9": {
+        "props": {
+            "src": "assets/card9.png",
+            "width": 400
+        }
+    },
+    "image#home10": {
+        "props": {
+            "src": "assets/card10.png",
+            "width": 400
+        }
     },
     "slider-layout#depBanner": {
         "props": {
