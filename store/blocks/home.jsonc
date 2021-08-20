@@ -97,7 +97,20 @@
         "children": [
             "tab-list#home",
             "tab-content#home"
-        ]
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        }
     },
     "tab-list#home": {
         "children": [
@@ -108,8 +121,7 @@
     "tab-list.item#home1": {
         "props": {
             "tabId": "Camisas famosas",
-            "label": "Camisas famosas",
-            "defaultActiveTab": true
+            "label": "Camisas famosas"
         }
     },
     "tab-list.item#home2": {
@@ -152,5 +164,4 @@
             "width": 700
         }
     }
-   
 }
