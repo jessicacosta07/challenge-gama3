@@ -63,61 +63,63 @@
     "image#home1": {
         "props": {
             "src": "assets/card1.png",
-            "width": 400
+            "width": 500
         }
     },
     "image#home2": {
         "props": {
             "src": "assets/card2.png",
-            "width": 400
+            "width": 500
         }
     },
     "image#home3": {
         "props": {
             "src": "assets/card3.png",
-            "width": 400
+            "textPosition": "CENTER",
+            "font": "t-heading-3",
+            "maxWidth": "50%"
         }
     },
     "image#home4": {
         "props": {
             "src": "assets/card4.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home5": {
         "props": {
             "src": "assets/card5.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home6": {
         "props": {
             "src": "assets/card6.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home7": {
         "props": {
             "src": "assets/card7.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home8": {
         "props": {
             "src": "assets/card8.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home9": {
         "props": {
             "src": "assets/card9.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "image#home10": {
         "props": {
             "src": "assets/card10.png",
-            "width": 400
+            "maxWidth": "50%"
         }
     },
     "slider-layout#depBanner": {

@@ -3,9 +3,10 @@
     display: block;
     overflow: hidden;
     position: relative;
+    margin: auto;
+    padding: 10px;
     border-radius: 20px;
 }   
-
 .searchBarContainer :global(.vtex-input-prefix__group) {
     background-color: #212121;
     border: none;
