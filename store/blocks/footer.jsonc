@@ -1,26 +1,50 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer"
     ]
   },
-  "footer-layout.mobile": { 
+  "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer"
     ]
   },
-  "flex-layout.row#footer": { 
+  "flex-layout.row#footer": {
     "children": [
-      "image"
+      "rich-text#footer1",
+      "rich-text#footer2",
+      "rich-text#footer3",
+      "rich-text#footer4"
     ]
   },
-  "image": {
+  "rich-text#footer1": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "text": "ENTRAR",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer2": {
+    "props": {
+      "text": "DESAFIOS",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer3": {
+    "props": {
+      "text": "LOJA",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer4": {
+    "props": {
+      "text": "SUPORTE",
+      "blockClass": "footer"
     }
   }
 }
