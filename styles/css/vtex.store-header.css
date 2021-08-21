@@ -1,0 +1,17 @@
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    background-color: #212121;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #59ff00;
+}
+
+.main-header, 
+.main-header-mobile {
+    background-color: #212121;
+    width: 100%;
+}
+.searchBarContainer{
+    background-color: #212121;
+}
