@@ -1,97 +1,8 @@
 {
     "store.home": {
         "blocks": [
-            "tab-layout#home",
-            "slider-layout#depBanner"
+            "tab-layout#home"
         ]
-    },
-    "slider-layout#depBanner": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 2
-            },
-            "infinite": true,
-            "fullWidth": false,
-            "blockClass": "products",
-            "autoplay": {
-                "timeout": 5000,
-                "stopOnHover": true
-            }
-        },
-        "children": [
-            "image#depbanner1",
-            "image#depbanner2",
-            "image#depbanner3",
-            "image#depbanner4",
-            "image#depbanner5",
-            "image#depbanner6",
-            "image#depbanner7",
-            "image#depbanner8",
-            "image#depbanner9",
-            "image#depbanner10"
-        ]
-    },
-    "image#depbanner1": {
-        "props": {
-            "src": "assets/card1.png",
-            "width": 300
-        }
-    },
-    "image#depbanner2": {
-        "props": {
-            "src": "assets/card2.png",
-            "width": 300
-        }
-    },
-    "image#depbanner3": {
-        "props": {
-            "src": "assets/card3.png",
-            "width": 300
-        }
-    },
-    "image#depbanner4": {
-        "props": {
-            "src": "assets/card4.png",
-            "width": 300
-        }
-    },
-    "image#depbanner5": {
-        "props": {
-            "src": "assets/card5.png",
-            "width": 300
-        }
-    },
-    "image#depbanner6": {
-        "props": {
-            "src": "assets/card6.png",
-            "width": 300
-        }
-    },
-    "image#depbanner7": {
-        "props": {
-            "src": "assets/card7.png",
-            "width": 300
-        }
-    },
-    "image#depbanner8": {
-        "props": {
-            "src": "assets/card8.png",
-            "width": 300
-        }
-    },
-    "image#depbanner9": {
-        "props": {
-            "src": "assets/card9.png",
-            "width": 300
-        }
-    },
-    "image#depbanner10": {
-        "props": {
-            "src": "assets/card10.png",
-            "width": 300
-        }
     },
     "tab-layout#home": {
         "children": [
@@ -133,7 +44,8 @@
     "tab-content#home": {
         "children": [
             "tab-content.item#home1",
-            "tab-content.item#home2"
+            "tab-content.item#home2",
+            "list-context.product-list#home"
         ]
     },
     "tab-content.item#home1": {
