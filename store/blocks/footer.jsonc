@@ -26,25 +26,29 @@
   "rich-text#footer1": {
     "props": {
       "text": "ENTRAR",
-      "blockClass": "footer"
+      "blockClass": "footer",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#footer2": {
     "props": {
       "text": "DESAFIOS",
-      "blockClass": "footer"
+      "blockClass": "footer",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#footer3": {
     "props": {
       "text": "LOJA",
-      "blockClass": "footer"
+      "blockClass": "footer",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#footer4": {
     "props": {
       "text": "SUPORTE",
-      "blockClass": "footer"
+      "blockClass": "footer",
+      "textPosition": "CENTER"
     }
   }
 }

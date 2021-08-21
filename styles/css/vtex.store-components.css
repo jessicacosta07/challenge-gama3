@@ -7,10 +7,3 @@
     padding: 20px;
     border-radius: 30px;
 } 
-
-.searchBarContainer :global(.vtex-input-prefix__group) {
-    background-color: #212121;
-    border: none;
-    border-radius: 0;
-    border-bottom: 2px solid #59ff00;
-}
