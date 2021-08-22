@@ -67,13 +67,13 @@
     "image#home1": {
         "props": {
             "src": "assets/BANNER-WOOD.png",
-            "width": 700
+            "width": 800
         }
     },
     "image#home2": {
         "props": {
             "src": "assets/BANNER-WOOD2.png",
-            "width": 700
+            "width": 800
         }
     }
 }

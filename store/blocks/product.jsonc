@@ -35,7 +35,6 @@
     },
     "product-summary.shelf#home": {
         "children": [
-            "product-summary-name",
             "product-summary-image",
             "product-selling-price",
             "product-summary-buy-button"
