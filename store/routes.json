@@ -1,8 +1,5 @@
 {
     "store.home": {
         "path": "/"
-    },
-    "store.product": {
-        "path": "/products"
     }
 }
